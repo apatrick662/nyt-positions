@@ -4,6 +4,10 @@
     border: red 1px solid;
 } */
 
+html body {
+    font-size: 16px;
+}
+
 ul {
     list-style-type: none;
     display: inline-block;
@@ -13,15 +17,32 @@ li {
     display: inline;
 }
 
-img {
+p {
+    line-height: 1.3em;
+    font-size: 1.4em;
+}
+
+.navbar img {
     width: 30px;
     height: 30px;
+    padding-left: 30%;
 }
 
 .navbar {
     width: 100%;
     height: 75px;
     background-color: aqua;
+    display: inline-block;
+}
+
+.para {
+    text-align: left;
+    width: 50%;
+    
+}
+
+.more {
+    padding-left: 25%;
 }
 
 .nyt {
@@ -43,6 +64,16 @@ img {
     margin-right: 5px;
     top: 10px;
     font-size: 18px;
+}
+
+.more {
+    display: flex;
+    width: 50%;
+}
+
+.more img {
+    height: 150px;
+    width: 150px;
 }
 
 #nyt-logo {
