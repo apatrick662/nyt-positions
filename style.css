@@ -1,1 +1,50 @@
 /* NAME: Adam Patrick */
+
+* {
+    border: red 1px solid;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar {
+    height: 75px;
+}
+
+.nyt {
+    float: left;
+}
+
+.subscribe {
+    float: right;
+}
+
+.button{
+    background-color: #0077C5;
+    color: white;
+    border: 1px black;
+    position: relative;
+    border-radius: 4px;
+    width: 312px;
+    height: 44px;
+    bottom: 7px;
+    margin-right: 5px;
+    top: 10px;
+    font-size: 18px;
+}
+
+#nyt-logo {
+    height: 75px;
+    width: 200px;
+}
