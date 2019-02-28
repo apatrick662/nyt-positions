@@ -1,8 +1,8 @@
 /* NAME: Adam Patrick */
 
-/* * {
+* {
     border: red 1px solid;
-} */
+}
 
 html body {
     font-size: 16px;
@@ -33,12 +33,13 @@ p {
     height: 75px;
     background-color: aqua;
     display: inline-block;
+    position: fixed;
 }
 
 .para {
     text-align: left;
     width: 50%;
-    
+    padding-top: 10%;
 }
 
 .more {
