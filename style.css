@@ -10,7 +10,7 @@ html body {
 
 ul {
     list-style-type: none;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 li {
@@ -22,10 +22,13 @@ p {
     font-size: 1.4em;
 }
 
+a {
+    text-decoration: none;
+}
+
 .navbar img {
     width: 30px;
     height: 30px;
-    padding-left: 30%;
 }
 
 .navbar {
@@ -33,6 +36,7 @@ p {
     height: 75px;
     background-color: aqua;
     display: inline-block;
+    /* display: flex; */
     position: fixed;
 }
 
@@ -46,14 +50,6 @@ p {
     padding-left: 25%;
 }
 
-.nyt {
-    float: left;
-}
-
-.subscribe {
-    float: right;
-}
-
 .button{
     background-color: #0077C5;
     color: white;
@@ -65,6 +61,7 @@ p {
     margin-right: 5px;
     top: 10px;
     font-size: 18px;
+    padding: 10px;
 }
 
 .more {
@@ -80,4 +77,6 @@ p {
 #nyt-logo {
     height: 75px;
     width: 200px;
+    padding-left: 30%;
+    padding-right: 30%;
 }
